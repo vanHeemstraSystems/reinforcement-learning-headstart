@@ -1,3 +1,5 @@
+// init
+
 /**
  *Initialize the model parameters and plot the initial probabilities.
  */

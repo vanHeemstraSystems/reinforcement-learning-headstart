@@ -7,9 +7,10 @@
  * Return: None
  */
 
+const ts = require('@tensorflow/tfjs');
 const { model } = require('./definitions');
+const { plotProbs } = require('./plotProbs');
 const { convertToOneHot } = require('./convertToOneHot');
-const { ts } = require('@tensorflow/tfjs');
 
 const train(reward) {
 	var phase = document.getElementsByName('phase')

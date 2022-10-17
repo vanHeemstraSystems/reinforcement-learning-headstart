@@ -4,6 +4,8 @@
  * Plot the probabilities of the choosing a move for each of the my moves.
  */
 
+const ts = require('@tensorflow/tfjs');
+const Plotly = require('plotly');
 
 const plotProbs() {
 	var divs = ['div1', 'div2', 'div3']

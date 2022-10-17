@@ -11,7 +11,7 @@ const { model } = require('./definitions');
 const { convertToOneHot } = require('./convertToOneHot');
 const { ts } = require('@tensorflow/tfjs');
 
-function train(reward){
+const train(reward) {
 	var phase = document.getElementsByName('phase')
 	if(phase[0].checked){
 		
@@ -28,4 +28,4 @@ function train(reward){
 	}
 }
 
-export { train }
+module.exports = { train };

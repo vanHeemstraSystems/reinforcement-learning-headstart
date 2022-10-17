@@ -5,7 +5,7 @@
 // Functions
 const { model } = require('./definitions');
 const plotProbs = require('./plotProbs');
-const ts = require('tensorflow');
+const ts = require('@tensorflow/tfjs');
 
 function init(){
 	//create model class

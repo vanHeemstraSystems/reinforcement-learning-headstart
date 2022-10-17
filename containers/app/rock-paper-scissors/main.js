@@ -1,9 +1,6 @@
 // main
 
 // Functions
-const { moves, model } = require('./functions/definitions');
-let myMove;
-let opMove;
-let opMoveIdx;
+const { init } = require('./functions/init');
 
-// More ...
+init();

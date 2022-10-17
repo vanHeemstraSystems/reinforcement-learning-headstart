@@ -1,4 +1,4 @@
-// init
+// init.js
 
 /**
  *Initialize the model parameters and plot the initial probabilities.
@@ -6,7 +6,7 @@
 
 // Functions
 const { model } = require('./definitions');
-const plotProbs = require('./plotProbs');
+const { plotProbs } = require('./plotProbs');
 const ts = require('@tensorflow/tfjs');
 
 const init = () => {

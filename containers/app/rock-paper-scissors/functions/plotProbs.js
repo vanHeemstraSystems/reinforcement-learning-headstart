@@ -6,7 +6,7 @@
 
 const ts = require('@tensorflow/tfjs');
 const Plotly = require('plotly');
-const { model } = require('definitions');
+const { model } = require('./definitions');
 
 const plotProbs = () => {
 	var divs = ['div1', 'div2', 'div3']

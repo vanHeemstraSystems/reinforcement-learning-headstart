@@ -1,4 +1,4 @@
-// chooseMove
+// chooseMove.js
 
 /**
  * Choose an agent's move based on the phase.
@@ -9,6 +9,7 @@
  * Return: Agent Move
  */
 const ts = require('@tensorflow/tfjs');
+const { getMaxIndex } =require('./getMaxIndex');
 
 let myMove;
 let opMove;

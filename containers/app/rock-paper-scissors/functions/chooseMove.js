@@ -6,7 +6,7 @@
  * Params: My Move
  * Return: Agent Move
  */
-
+const ts = require('@tensorflow/tfjs');
 
 let myMove;
 let opMove;

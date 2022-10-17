@@ -12,8 +12,7 @@ let myMove;
 let opMove;
 let opMoveIdx;
 
-function chooseMove(move){
-	
+const chooseMove = (move) => {
 	myMove = move;
 	var phase = document.getElementsByName('phase');
 
@@ -31,4 +30,6 @@ function chooseMove(move){
 	}
 
 	return opMove;
-}
+};
+
+module.exports = { chooseMove };

@@ -1,4 +1,4 @@
-//definitions
+// definitions
 const moves = ["ROCK", "PAPER", "SCISSORS"];
 // let myMove;
 // let opMove;
